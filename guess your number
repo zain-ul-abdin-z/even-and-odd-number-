@@ -1,0 +1,14 @@
+# Simple python program to guess even or odd numbers 
+# author zain-ul-abdin
+
+
+num = int(input("Enter your guess number here: "))
+if num % 2:   
+   print()
+   print("Reply")
+   print(num, "is an odd number")
+   print(num, "cannot be multipled by 2")
+else:
+    print(num, "is an even number")
+    print(num, "can be multipled by 2")
+    
